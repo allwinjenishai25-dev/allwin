@@ -1,0 +1,10 @@
+a=[10,20,30,3,4,12]
+
+left=0
+right=len(a)-1
+while left<right:
+    a[left],a[right]=a[right],a[left]
+    left+=1
+    right-=1
+    print(a)
+    
