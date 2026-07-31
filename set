@@ -1,0 +1,15 @@
+cart=["milk ","bread","eggs"]
+
+print("Items in the cart:",cart)
+
+cart.append("paste")
+print(cart)
+cart.remove("bread")
+print(cart)
+print("The number of items in the cart:",len(cart))
+
+items=input("Enter an items:")
+if items in cart:
+    print(f"{items} is in the cart")
+else:
+    print(f"{items}is not in the cart")    
